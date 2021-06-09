@@ -2,8 +2,8 @@ body {
  
 
  background-image: url("./golffinal.jpg");
- background-size: 100%;
- background-repeat: no-repeat;
+ background-size: cover;
+ background-repeat: no-repeat center fixed;
  background-color: #cccccc;
  
  
