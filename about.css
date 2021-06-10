@@ -94,7 +94,7 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
 ul.topnav a.active {
-  background-color: orange;
+  background-color: green;
   color: white;
 }
 
@@ -104,12 +104,12 @@ h1 {
 
 }
 p{
-background-image: url("./text.jpg");
+background-image: url("./golf3.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font size: 15px;
+            font size: 14px;
             text-align: left;
             font-weight: bold;
             

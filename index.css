@@ -181,7 +181,7 @@ div{
   width: 25px;
   height: 25px;
   
-  background-image: url("./ball.jpg");
+  background-color: #82E0AA;
   
   position: relative;
   animation-name: ball;
