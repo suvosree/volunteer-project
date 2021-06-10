@@ -87,7 +87,7 @@ div{
   
   position: relative;
   animation-name: ball;
-  animation-duration: 6s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   
 }
@@ -178,14 +178,14 @@ p {
 div{
   
   border-radius: 70%;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   
   background-color: white;
   
   position: relative;
   animation-name: ball;
-  animation-duration: 6s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   
 }
