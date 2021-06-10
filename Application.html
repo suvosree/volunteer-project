@@ -14,9 +14,9 @@
 
 <h1>Application Form </h1>
 <div>
-  <form action="/action_page.php">
+  <form action="/action_page.php" onsubmit="return validateForm() "method="post">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <input type="text" id="fname" name="firstname" required placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
@@ -24,17 +24,15 @@
 
 
    <label for="Contact">Contact Number</label>
-    <input type="text" id="contact" name="Contact" placeholder="Your Contact Number..">
+    <input type="text" id="contact" name="Contact" required placeholder="Your Contact Number..">
 
 <label for="Email">Email Id</label>
-    <input type="text" id="email" name="email" placeholder="Your Email Id.."> 
+    <input type="text" id="email" name="email" required placeholder="Your Email Id.."> 
 
-<label for="Gender">Gender</label>
   <select id="gender" name="Gender">
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="other">Other</option>
-        <option value="Not To Disclose">Not To Disclose</option>
       </select>
 
     <input type="submit" value="Submit">

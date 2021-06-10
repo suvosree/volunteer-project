@@ -3,7 +3,7 @@
 body {
  
 
- background-image: url("./d1.jpg");
+ background-image: url("./d6.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -54,7 +54,7 @@ h1 {
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
-  	     padding-top: 70px;
+  	     padding-top: 0px;
 
   
 }
@@ -65,7 +65,7 @@ p {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 45px;
+            font-size: 40px;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
@@ -74,7 +74,7 @@ p {
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
   font-family: Arial, Helvetica, sans-serif;
-
+      padding-top: 0px;
 
 }
 div{
