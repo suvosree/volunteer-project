@@ -15,13 +15,14 @@
 </ul>
 
 <h1>  James Wolf  </h1>
-<div class="about">About Me.</div>
 
 <pre> 
-      I am golf instructor for five years 
-      and have been playing golf for 30 years.
+      I am a golf instructor for five years 
+      and have been playing golf for thirty years.
       I provide lessons to all ages ,
       from beginners to advance players  
+          --------- James Wolf
+
 </pre>
 
 
