@@ -128,7 +128,7 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
 ul.topnav a.active {
-  background-color: green;
+  background-color: orange;
   color: white;
 }
 
@@ -187,9 +187,9 @@ div{
 @keyframes ball{
 
   0%  {background-color:white; left:0px; top:0px;}
-  25%  {background-color:white; left:600px; top:0px;}
+  25%  {background-color:white; left:500px; top:0px;}
  
-  50% {background-color:white; left:500px;top :600px;}
+  50% {background-color:white; left:500px;top :500px;}
   75% {background-color:white; left:0px;top :500px;}
   100% {background-color:white; left:0px;top :0px;}
 }

@@ -118,9 +118,9 @@ ul.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 12px;
+  padding: 5px 6px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Change the color of links on hover */
@@ -131,7 +131,7 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
   ul.topnav a.active {
-  background-color: orange;
+  background-color: blue;
   color: white;
 }
 
@@ -162,7 +162,7 @@ p {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 15px;
+            font-size: 20px;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
