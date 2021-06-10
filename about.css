@@ -52,13 +52,13 @@ h1 {
             
 
 }
-pre {
+div.about {
 background-image: url("./text.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 30px;
+            
             text-align: left;
             font-weight: bold;
             
@@ -66,17 +66,22 @@ background-image: url("./text.jpg");
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
-  	     padding-top: 0px;
-             border: 2px solid transparent;
-             padding: 15px;
-             border: 2px solid #73AD21;
-             border-radius: 15px;
+  	     
+             
              
              
 
 }
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+@media screen and (min-width: 601px) {
+  div.about {
+    font-size: 40px;
   }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of div to 30px */
+
+@media screen and (max-width: 600px) {
+  div.about {
+    font-size: 20px;
+  }
+}
