@@ -35,22 +35,8 @@ ul.topnav a.active {
 }
 
 h1 {
-  background-image: url("./text2.jpg");
-            background-repeat: repeat;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-top: 0px;
-            font-size: 60px;
-            text-align: left;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-family: 'Steelfish Rg', 'helvetica neue',
-                     helvetica, arial, sans-serif;
-            font-weight: 800;
-            -webkit-font-smoothing: antialiased;
-  	     padding-top: 0px;
-            
-
+  
+          
 }
 pre{
 background-color :blue;
@@ -58,8 +44,8 @@ background-color :blue;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font size: 80px;
-            text-align: center;
+            font-size: 40px;
+            text-align: left;
             font-weight: bold;
             
             font-family: 'Steelfish Rg', 'helvetica neue',
@@ -76,7 +62,8 @@ background-color :blue;
 
 
 
-@media screen and (max-width: 601px) {
+@media only screen and (max-width: 601px) {
+body {
   background-image: url("./m3.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
