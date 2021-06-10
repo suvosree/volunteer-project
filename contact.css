@@ -1,7 +1,7 @@
 body {
  
 
- background-image: url("./golf2.jpg");
+ background-image: url("./d2.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -30,17 +30,17 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
 ul.topnav a.active {
-  background-color: blue;
+  background-color: green;
   color: white;
 }
 
 h1 {
-  background-color: white;
+  background-color: black;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 34px;
+            font-size: 35px;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
@@ -49,16 +49,16 @@ h1 {
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
   	     padding-top: 0px;
-             border: 6px solid #73AD21;
-             border-radius: 15px;
+             border: 6px solid black;
+             border-radius: 5px;
 }
 p {
-background-image: url("./text4.jpg");
+background-image: url("./text5.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 24px;
+            font-size: 25px;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
@@ -76,7 +76,7 @@ div{
   width: 25px;
   height: 25px;
   
-  background-image: url("./ball.jpg");
+  background-color: white;
   
   position: relative;
   animation-name: ball;

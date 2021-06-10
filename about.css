@@ -1,7 +1,7 @@
 body {
  
 
- background-image: url("./about.jpg");
+ background-image: url("./d4.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -35,7 +35,7 @@ ul.topnav a.active {
 }
 
 h1 {
-  background-image: url("./golf3.jpg");
+  background-image: url("./text2.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -53,7 +53,7 @@ h1 {
 
 }
 div.about {
-background-image: url("./text2.jpg");
+background-color :blue;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -75,6 +75,7 @@ background-image: url("./text2.jpg");
 @media screen and (min-width: 601px) {
   div.about {
     font-size: 40px;
+
   }
 }
 

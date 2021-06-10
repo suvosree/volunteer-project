@@ -3,7 +3,7 @@
 body {
  
 
- background-image: url("./golf1.jpg");
+ background-image: url("./d1.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -39,7 +39,7 @@ ul.topnav a:hover {
 }
 
 h1 {
-  background-image: url("./text4.jpg");
+  background-image: url("./text.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -58,7 +58,7 @@ h1 {
 }
 
 p {
-  background-image: url("./text4.jpg");
+  background-image: url("./text.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
