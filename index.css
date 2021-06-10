@@ -151,7 +151,7 @@ h1 {
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
-  	     
+  	     padding-top: 0px;
 
   
 }
@@ -162,7 +162,7 @@ p {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 20px;
+            font-size: 17px;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
@@ -170,7 +170,7 @@ p {
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
-  
+            padding-top: 0px;
 
 
 }
@@ -193,9 +193,9 @@ div{
 @keyframes ball{
 
   0%  {background-color:white; left:0px; top:0px;}
-  25%  {background-color:white; left:300px; top:0px;}
+  25%  {background-color:white; left:400px; top:0px;}
   50%  {background-color:white; left:200px; top:500px;}
-  75%  {background-color:white; left:200px; top:0px;}
+  75%  {background-color:white; left:500px; top:0px;}
   100% {background-color:white; left:0px;0px;}
 }
 
