@@ -5,7 +5,7 @@
 # Include the Sendinblue library\
 require_once(__DIR__ . "/APIv3-php-library/autoload.php");
 # Instantiate the client\
-SendinBlue\Client\Configuration::getDefaultConfiguration()->setApiKey("api-key", "YOUR_API_V3_KEY");
+SendinBlue\Client\Configuration::getDefaultConfiguration()->setApiKey("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", "YOUR_API_V3_KEY");
 $api_instance = new SendinBlue\Client\Api\EmailCampaignsApi();
 $emailCampaigns = new \SendinBlue\Client\Model\CreateEmailCampaign();
 # Define the campaign settings\
