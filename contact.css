@@ -99,7 +99,7 @@ div{
 @media only screen and (max-width: 601px) {
 body {
 
-background-image: url("./m2.jpg");
+background-image: url("./text5.jpg");
 background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -133,7 +133,7 @@ ul.topnav a.active {
 }
 
 h1 {
-  background-color: white;
+  background-color: orange;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -151,7 +151,7 @@ h1 {
              border-radius: 5px;
 }
 p {
-background-image: url("./text4.jpg");
+background-image: url("./text.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -189,8 +189,8 @@ div{
   0%  {background-color:white; left:0px; top:0px;}
   25%  {background-color:white; left:600px; top:0px;}
  
-  50% {background-color:white; left:600px;top :800px;}
-  75% {background-color:white; left:0px;top :800px;}
+  50% {background-color:white; left:500px;top :600px;}
+  75% {background-color:white; left:0px;top :500px;}
   100% {background-color:white; left:0px;top :0px;}
 }
 }

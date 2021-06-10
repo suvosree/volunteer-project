@@ -193,7 +193,7 @@ div{
 @keyframes ball{
 
   50%  {background-color:white; left:0px; top:0px;}
-  75%  {background-color:white; left:600px; top:0px;}
+  75%  {background-color:white; left:500px; top:0px;}
  
   100% {background-color:white; left:0px;0px;}
 }
