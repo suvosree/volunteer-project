@@ -40,20 +40,21 @@ h1 {
 }
 
 p{
-background-color :blue;
+background-image: url("./text2.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 30px;
-            text-align: left;
+            font-size: 26px;
+            text-align: center;
             font-weight: bold;
             
             font-family: 'Steelfish Rg', 'helvetica neue',
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
-  	     
+  	     border: 8px solid blue;
+             border-radius: 5px;
              
              
              
@@ -65,7 +66,7 @@ background-color :blue;
 
 @media only screen and (max-width: 601px) {
 body {
-  background-image: url("./text4.jpg");
+  background-image: url("./m5.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -117,6 +118,8 @@ background-image: url("./golf3.jpg");
                      helvetica, arial, sans-serif;
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
+             border: 6px solid green;
+             border-radius: 5px;
   	     
              
              
