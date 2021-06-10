@@ -1,7 +1,7 @@
 body {
  
 
- background-image: url("./golf3.jpg");
+ background-image: url("./about.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -30,12 +30,12 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
 ul.topnav a.active {
-  background-color: green;
+  background-color: blue;
   color: white;
 }
 
 h1 {
-  background-image: url("./text4.jpg");
+  background-image: url("./golf3.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -53,7 +53,7 @@ h1 {
 
 }
 div.about {
-background-image: url("./text4.jpg");
+background-image: url("./text2.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -82,6 +82,7 @@ background-image: url("./text4.jpg");
 
 @media screen and (max-width: 600px) {
   div.about {
-    font-size: 10px;
+    font-size: 20px;
+
   }
 }

@@ -1,7 +1,7 @@
 body {
  
 
- background-image: url("./golf3.jpg");
+ background-image: url("./golf2.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -49,7 +49,7 @@ h1 {
             font-weight: 800;
             -webkit-font-smoothing: antialiased;
   	     padding-top: 0px;
-             border: 2px solid #73AD21;
+             border: 6px solid #73AD21;
              border-radius: 15px;
 }
 p {
@@ -89,7 +89,7 @@ div{
 @keyframes ball{
 
   0%  {background-color:white; left:0px; top:0px;}
-  25%  {background-color:white; left:1200px; top:0px;}
+  25%  {background-color:white; left:600px; top:0px;}
  
   50% {background-color:white; left:1000px;top :600px;}
   75% {background-color:white; left:0px;top :600px;}
