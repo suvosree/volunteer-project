@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="about.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+<ul class="topnav">
+  <a  href="index.html">Home</a>
+  <a href="Application.html">Application</a>
+  <a href="contact.html">Contact</a>
+  <a class="active" href="about.html">About Me</a>
+</ul>
+
+<h1>  James Wolf  </h1>
+<pre> 
+      I am golf instructor for five years 
+      and have been playing golf for 30 years.
+      I provide lessons to all ages ,
+      from beginners to advance players  
+</pre>
+
+
+
+
+</body>
+
+</html>

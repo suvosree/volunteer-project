@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="contact.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+<ul class="topnav">
+  <a href="index.html">Home</a>
+  <a href="Application.html">Application</a>
+  <a class="active" href="contact.html">Contact</a>
+  <a href="about.html">About Me</a>
+</ul>
+
+<h1>Contact Information</h1>
+<p> James Wolf </p>
+<p>Golf Instructor</p>
+<div> </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

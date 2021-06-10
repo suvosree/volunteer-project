@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 <body>
+<ul class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="Application.html">Application</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About Me</a>
+</ul>
 
-<h1>James Wolf </h1>
-<p>Professional Golf Trainer.</p>
+<h1>  James Wolf  </h1>
+<div> </div>
+<p> YOUR   Professional   Golf   Instructor </p>
+
+
 
 </body>
+
 </html>
