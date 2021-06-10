@@ -1,7 +1,7 @@
 body {
  
 
- background-image: url("./call.jpg");
+ background-image: url("./golf3.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -35,7 +35,7 @@ ul.topnav a.active {
 }
 
 h1 {
-  background-color: blue;
+  background-color: white;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
