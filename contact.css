@@ -170,7 +170,7 @@ background-image: url("./text.jpg");
 }
 div{
   
-  border-radius: 50%;
+  border-radius: 75%;
   width: 25px;
   height: 25px;
   
@@ -187,10 +187,10 @@ div{
 @keyframes ball{
 
   0%  {background-color:white; left:0px; top:0px;}
-  25%  {background-color:white; left:500px; top:0px;}
+  25%  {background-color:white; left:300px; top:0px;}
  
-  50% {background-color:white; left:500px;top :500px;}
-  75% {background-color:white; left:0px;top :500px;}
+  50% {background-color:white; left:300px;top :400px;}
+  75% {background-color:white; left:0px;top :300px;}
   100% {background-color:white; left:0px;top :0px;}
 }
 }
