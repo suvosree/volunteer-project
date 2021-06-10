@@ -38,13 +38,14 @@ h1 {
   
           
 }
-pre{
+
+p{
 background-color :blue;
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font-size: 40px;
+            font-size: 30px;
             text-align: left;
             font-weight: bold;
             
@@ -64,7 +65,7 @@ background-color :blue;
 
 @media only screen and (max-width: 601px) {
 body {
-  background-image: url("./m3.jpg");
+  background-image: url("./text4.jpg");
  background-size: cover;
  background-repeat: no-repeat center fixed;
  background-color: #cccccc;
@@ -80,9 +81,9 @@ ul.topnav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 10px 12px;
+  padding: 5px 6px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Change the color of links on hover */
@@ -93,35 +94,22 @@ ul.topnav a:hover {
 
 /* Add a color to the active/current link */
 ul.topnav a.active {
-  background-color: blue;
+  background-color: orange;
   color: white;
 }
 
 h1 {
-  background-image: url("./text2.jpg");
-            background-repeat: repeat;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-top: 0px;
-            font-size: 20px;
-            text-align: left;
-            font-weight: bold;
-            text-transform: uppercase;
-            font-family: 'Steelfish Rg', 'helvetica neue',
-                     helvetica, arial, sans-serif;
-            font-weight: 800;
-            -webkit-font-smoothing: antialiased;
-  	     padding-top: 0px;
+  
             
 
 }
-pre {
-background-image: url("./text2.jpg");
+p{
+background-image: url("./text.jpg");
             background-repeat: repeat;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-top: 0px;
-            font size: 20px;
+            font size: 15px;
             text-align: left;
             font-weight: bold;
             
