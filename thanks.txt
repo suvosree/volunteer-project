@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="thankyou.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+<ul class="topnav">
+  <a class=href="index.html">Home</a>
+  <a href="Application.html">Application</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About Me</a>
+</ul>
+
+<h1>  Thank You for Contacting me.You will get response soon </h1>
+<div> </div>
+<p> James Wolf </p>
+
+
+
+</body>
+
+</html>

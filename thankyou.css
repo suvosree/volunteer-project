@@ -1,0 +1,147 @@
+body {
+ 
+
+ background-image: url("./d3.jpg");
+ background-size: cover;
+ background-repeat: no-repeat center fixed;
+ background-color: #cccccc;
+
+ 
+
+}
+h1 {
+  background-color:black;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 0px;
+            font-size: 45px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+  	     padding-top: 0px;
+
+  
+}
+
+p {
+  
+  background-color:black;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 0px;
+            font-size: 40px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+      padding-top: 0px;
+
+}
+ul.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+ul.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+ul.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+  ul.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+@media only screen and (max-width: 601px) {
+body {
+
+background-image: url("./m5.jpg");
+background-size: cover;
+ background-repeat: no-repeat center fixed;
+ background-color: #cccccc;
+}
+h1 {
+  background-color :black;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 0px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+  	     padding-top: 0px;
+
+  
+}
+
+p {
+  background-color :black;
+            background-repeat: repeat;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 0px;
+            font-size: 17px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Steelfish Rg', 'helvetica neue',
+                     helvetica, arial, sans-serif;
+            font-weight: 800;
+            -webkit-font-smoothing: antialiased;
+            padding-top: 0px;
+
+
+}
+
+ul.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+ul.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 6px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+ul.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+  ul.topnav a.active {
+  background-color: blue;
+  color: white;
+}
