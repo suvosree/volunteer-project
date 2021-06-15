@@ -41,10 +41,9 @@
   </form>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-</script>
 
-<script src="https://smtpjs.com/v3/smtp.js">
+
+
 
 <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -97,21 +96,6 @@
     </script>
 </script>
 
-<script> 
-Email.send({
-    Host : "smtp.gmail.com",
-    client.UseDefaultCredentials = false;
-    Username : "do.not.reply.1104@gmail.com",
-    Password : "password1104",
-    client.EnableSsl = true;
-    To : 'suvostee5@gmail.com',
-    From : "do.not.reply.1104@gmail.com",
-    Subject : "application form submitted",
-    Body : ""
-}).then(
-  message => alert(message)
-);
-</script>
 
 </body>
 </html>
