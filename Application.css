@@ -64,7 +64,7 @@ input[type=text], select {
   border-radius: 15px;
 }
 
-input[type=submit] {
+button[type=submit] {
   width: 100%;
   background-color: #4CAF50;
   color: white;
@@ -75,7 +75,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #45a049;
 }
 
