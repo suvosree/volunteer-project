@@ -56,11 +56,11 @@
 
      function sendmail(){
     
-			var firstname = $('#fname').val();
-      var lastname = $('#lname').val();
-			var email = $('#email').val();
-			var Contact = $('#contact').val();
-      var gender = $('#gender').val();
+			var firstname = $('fname').val();
+      var lastname = $('lname').val();
+			var email = $('email').val();
+			var Contact = $('contact').val();
+      var gender = $('gender').val();
 
 			var body = $('#body').val();
 
