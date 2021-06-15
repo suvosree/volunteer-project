@@ -14,7 +14,7 @@
 
 <h1>Application Form </h1>
 <div>
-  <form action="mailto:james.wolf@gmail.com" onsubmit="location.href='thanks.html' method="post">
+  <form action="javascript:sendmail()" onsubmit="location.href='thanks.html' method="post">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" required placeholder="Your name..">
 
@@ -39,10 +39,66 @@
   </form>
 </div>
 
-<script>
-function myFunction() {
-  document.getElementById("form").submit();
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 </script>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+<script>  
+
+     function sendmail(){
+    
+			var name = $('#Name').val();
+			var email = $('#Sender').val();
+			var subject = $('#Subject').val();
+      var message = $('#Message').val();
+
+			// var body = $('#body').val();
+
+			var Body='Name: '+name+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
+			//console.log(name, phone, email, message);
+
+			Email.send({
+        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+				To: 'optimalweb09@gmail.com',
+				From: "demooptimalweb@gmail.com",
+				Subject: "New message on contact from "+name,
+				Body: Body
+			}).then(
+				message =>{
+					//console.log (message);
+					if(message=='OK'){
+					alert('Your mail has been send. Thank you for connecting.');
+					}
+					else{
+						console.error (message);
+						alert('There is error at sending message. ')
+						
+					}
+
+				}
+			);
+
+
+
+		}
+
+
+    </script>
+</script>
+
+<script> 
+Email.send({
+    Host : "smtp.gmail.com",
+    Username : "do.not.reply.1104@gmail.com",
+    Password : "password1104",
+    To : 'james.wolf@gmail.com',
+    From : "do.not.reply.1104@gmail.com",
+    Subject : "application form submitted",
+    Body : ""
+}).then(
+  message => alert(message)
+);
+</script>
+
 </body>
 </html>
