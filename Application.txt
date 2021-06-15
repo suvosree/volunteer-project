@@ -14,7 +14,7 @@
 
 <h1>Application Form </h1>
 <div>
-  <form action="javascript:sendmail()" onsubmit="location.href='thanks.html' method="post">
+  <form action="javascript:sendmail()"  method="post">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="fname" required placeholder="Your name..">
@@ -37,7 +37,7 @@
         <option value="other">Other</option>
       </select>
 
-      <button type="submit" class="btn btn-contact">Submit</button>
+      <button type="submit">Submit</button>
   </form>
 </div>
 
@@ -68,7 +68,10 @@
 			
 
 			Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+        Host : "smtp.gmail.com",
+        Username : "do.not.reply.1104@gmail.com",
+        Password : "password1104",
+       
 				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
 				Subject: "New message of website application page submition from "+firstname,
