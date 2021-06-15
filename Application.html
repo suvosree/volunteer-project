@@ -35,7 +35,7 @@
         <option value="other">Other</option>
       </select>
 
-    <input type="submit" value="Submit">
+     <button type="submit" class="btn btn-contact">Send Message</button>
   </form>
 </div>
 
@@ -43,7 +43,15 @@
 </script>
 
 <script src="https://smtpjs.com/v3/smtp.js">
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
 <script>  
+ 
 
      function sendmail(){
     
@@ -59,8 +67,8 @@
 
 			Email.send({
         SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-				To: 'james.wolf@gmail.com',
-				From: "do.not.reply.1104@gmail.com",
+				To: 'optimalweb09@gmail.com',
+				From: "demooptimalweb@gmail.com",
 				Subject: "New message on contact from "+name,
 				Body: Body
 			}).then(

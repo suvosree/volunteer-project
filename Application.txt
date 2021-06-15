@@ -35,7 +35,7 @@
         <option value="other">Other</option>
       </select>
 
-    <input type="submit" value="Submit">
+     <button type="submit" class="btn btn-contact">Send Message</button>
   </form>
 </div>
 
@@ -43,7 +43,15 @@
 </script>
 
 <script src="https://smtpjs.com/v3/smtp.js">
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+ 
 <script>  
+ 
 
      function sendmail(){
     
