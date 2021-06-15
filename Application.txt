@@ -14,7 +14,7 @@
 
 <h1>Application Form </h1>
 <div>
-  <form action="mailto:suvosree5@gmail.com" method="post">
+  <form action="myscripts.js" method="post">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" required placeholder="Your name..">
 
@@ -39,6 +39,10 @@
   </form>
 </div>
 
-
+<script>
+function myFunction() {
+  document.getElementById("form").submit();
+}
+</script>
 </body>
 </html>
