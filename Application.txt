@@ -17,10 +17,10 @@
   <form action="javascript:sendmail()" onsubmit="location.href='thanks.html' method="post">
 
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" required placeholder="Your name..">
+    <input type="text" id="fname" name="fname" required placeholder="Your name..">
 
     <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="text" id="lname" name="lname" placeholder="Your last name..">
 
 
 
@@ -30,13 +30,14 @@
 <label for="Email">Email Id</label>
     <input type="text" id="email" name="email" required placeholder="Your Email Id.."> 
 
+<label for="gender">Gender</label>
   <select id="gender" name="Gender">
         <option value="male">Male</option>
         <option value="female">Female</option>
         <option value="other">Other</option>
       </select>
 
-     <button type="submit" class="w3-bar-item w3-button w3-green" style="width:33.3%">Submit</button>
+     <input type="submit" value="Submit">
   </form>
 </div>
 
@@ -56,26 +57,26 @@
 
      function sendmail(){
     
-			var firstname = $('fname').val();
-      var lastname = $('lname').val();
-			var email = $('email').val();
-			var Contact = $('contact').val();
-      var gender = $('gender').val();
+			var fname = $('#fname').val();
+      var lname = $('#lname').val();
+			var email = $('#email').val();
+			var contact = $('#contact').val();
+      var gender = $('#gender').val();
 
-			var body = $('#body').val();
+			
 
-			var Body='Name: '+firstname+''+lastname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
-			console.log(firstname, lastname, email, Contact,gender);
+			var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
+			
 
 			Email.send({
         SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
 				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
-				Subject: "New message on contact from "+firstname,
+				Subject: "New message of website application page submition from "+firstname,
 				Body: Body
 			}).then(
 				message =>{
-					//console.log (message);
+					
 					if(message=='OK'){
 					alert('Your mail has been send. Thank you for connecting.');
 					}
@@ -98,7 +99,7 @@
 
 <script> 
 Email.send({
-    Host : "smtp.gmail.com,587",
+    Host : "smtp.gmail.com",
     client.UseDefaultCredentials = false;
     Username : "do.not.reply.1104@gmail.com",
     Password : "password1104",
