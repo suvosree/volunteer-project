@@ -37,11 +37,14 @@
         <option value="other">Other</option>
       </select>
 
-    <input type="button" value="Submit" onclick="sendmail">
+    <input type="button" value="Submit" onclick="sendmail()">
   </form>
 </div>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 
 <script src="https://smtpjs.com/v3/smtp.js"></script>
  
@@ -57,7 +60,8 @@ var gender = $('#gender').val();
 			
 
 var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
-}		
+//console.log(fname,lname, contact, email, gender);
+	
 
 			Email.send({
         Host : "smtp.gmail.com",
@@ -66,7 +70,7 @@ var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<b
        
 				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
-				Subject: "New message of website application page submition from "+firstname,
+				Subject: "New message of website application page submition from "+fname,
 				Body: Body
 			}).then(
 				message =>{
