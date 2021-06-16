@@ -14,7 +14,7 @@
 
 <h1>Application Form </h1>
 <div>
-  <form action="javascript:sendmail()" onsubmit="location.href='thanks.html' method="post">
+  <form action="javascript:sendmail()"  method="post">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="fname" required placeholder="Your name..">
@@ -37,39 +37,33 @@
         <option value="other">Other</option>
       </select>
 
-      <button type="submit" >Submit</button>
+    <button type="submit">Submit</button>
   </form>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-<script src="https://smtpjs.com/v3/smtp.js">
-
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
  
 <script>  
- 
-
-     function sendmail(){
+function sendmail(){
     
-			var fname = $('#fname').val();
-      var lname = $('#lname').val();
-			var email = $('#email').val();
-			var contact = $('#contact').val();
-      var gender = $('#gender').val();
+var fname = $('#fname').val();
+var lname = $('#lname').val();
+var email = $('#email').val();
+var contact = $('#contact').val();
+var gender = $('#gender').val();
 
 			
 
-			var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
-			
+var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
+}		
 
 			Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
+        Host : "smtp.gmail.com",
+        Username : "do.not.reply.1104@gmail.com",
+        Password : "password1104",
+       
 				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
 				Subject: "New message of website application page submition from "+firstname,
@@ -97,21 +91,6 @@
     </script>
 </script>
 
-<script> 
-Email.send({
-    Host : "smtp.gmail.com",
-    client.UseDefaultCredentials = false;
-    Username : "do.not.reply.1104@gmail.com",
-    Password : "password1104",
-    client.EnableSsl = true;
-    To : 'suvostee5@gmail.com',
-    From : "do.not.reply.1104@gmail.com",
-    Subject : "application form submitted",
-    Body : ""
-}).then(
-  message => alert(message)
-);
-</script>
 
 </body>
 </html>
