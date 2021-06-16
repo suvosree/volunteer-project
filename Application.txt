@@ -64,7 +64,7 @@ var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<b
         Username : "do.not.reply.1104@gmail.com",
         Password : "password1104",
        
-				To: 'suvosree5@gmail.com',
+				To: 'wolf.james@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
 				Subject: "New message of website application page submition from "+firstname,
 				Body: Body
