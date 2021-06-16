@@ -37,7 +37,7 @@
         <option value="other">Other</option>
       </select>
 
-    <input type="button" value="Submit" onclick="sendmail">
+    <input type="button" value="Submit" onclick="sendmail()">
   </form>
 </div>
 
@@ -62,7 +62,7 @@ var gender = $('#gender').val();
 
 var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<br>gender: '+gender;
 	
-
+//console.log(fname, lname, email, gender,contact);
 			Email.send({
         Host : "smtp.gmail.com",
         Username : "do.not.reply.1104@gmail.com",
