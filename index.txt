@@ -24,7 +24,19 @@
 <div> </div>
 <p> YOUR   Professional   Golf   Instructor </p>
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "Golf Lessons in South Florida",
+  "url": "https://jameswolf.netlify.app/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://jameswolf.netlify.app/application{search_term_string}Golf Training in South Florida by James Wolf",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
 </body>
 
