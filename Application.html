@@ -37,7 +37,7 @@
         <option value="other">Other</option>
       </select>
 
-    <input type="button" value="Submit" onclick="sendmail()">
+    <input type="button" value="Submit" onclick="sendmail();">
   </form>
 </div>
 
@@ -64,11 +64,12 @@ var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<b
 	
 //console.log(fname, lname, email, gender,contact);
 			Email.send({
+SecureToken : "48352342-63cc-4571-b1bc-b0a5e922752b",
         Host : "smtp.gmail.com",
         Username : "do.not.reply.1104@gmail.com",
         Password : "password1104",
        
-				To: 'wolf.james@gmail.com',
+				To: 'suvosree5@gmail.com',
 				From: "do.not.reply.1104@gmail.com",
 				Subject: "New message of website application page submition from "+fname,
 				Body: Body
@@ -92,7 +93,7 @@ var Body='Name: '+fname+''+lname+'<br>Email: '+email+'<br>Contact: '+contact+'<b
 		
 
 
-    </script>
+    
 </script>
 
 
